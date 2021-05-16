@@ -2,17 +2,19 @@
 
 A simple Hello World application written in Flask
 
-### Create and activate a virtual environment
+### Install
 ```
-$ python -m venv venv
+# Create a virtual environment
+$ python3 -m venv venv
+
+# Activate it
 $ source venv/bin/activate
-```
-### Install the dependencies
-```
+
+# Install dependencies
 $ pip install -r requirements.txt
 ```
 
-### Run the application
+### Run
 ```
-$ python app.py
+$ python3 app.py
 ```
